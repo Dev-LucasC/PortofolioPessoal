@@ -1,10 +1,10 @@
 import React from 'react'
 import './about.css'
 
-const about = () => {
+const About = () => {
   return (
     <div>about</div>
   )
 }
 
-export default about
+export default About
