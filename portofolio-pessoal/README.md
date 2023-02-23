@@ -2,6 +2,8 @@
 
 Seja bem-vindo ao meu portfólio pessoal! Aqui, você encontrará alguns dos meus trabalhos mais recentes e poderá ter uma ideia do meu conhecimento e experiência em desenvolvimento de software.
 
+Para acessar o site, entre no link: https://meuportofolio-2u5dhg2ml-dev-lucasc.vercel.app/
+
 ## Tecnologias Utilizadas
 
 Para a construção deste projeto, escolhi utilizar as tecnologias mais modernas do mercado. As tecnologias utilizadas foram:
