@@ -3,7 +3,7 @@ import './experience.css'
 
 const experience = () => {
   return (
-    <section id='experience'>experience</section>
+    <section id='experience'></section>
   )
 }
 
