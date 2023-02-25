@@ -16,11 +16,9 @@ export const App = () => {
     <>
       <Header/>
       <Nav />
-      <About />
       <Experience />
-      <Services />
       <Portofolio />
-      <Testimonials />
+      <About />
       <Contact />
       <Footer />
     </>

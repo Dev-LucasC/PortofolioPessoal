@@ -25,11 +25,14 @@ const About = () => {
               <h5>Experiencia</h5>
               <small>1+ Anos de Trabalho</small>
             </article>
+
+            {/* 
             <article className='about__card'>
             <FiUsers className='about__icon'/>
               <h5>Clientes</h5>
               <small>200+ Trabalhos realizados</small>
             </article>
+              */}
             <article className='about__card'>
             <VscFolderLibrary className='about__icon'/>
               <h5>Projetos</h5>
@@ -37,10 +40,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur maiores aliquam, vel temporibus voluptatem ut velit adipisci iure voluptas sapiente beatae eum voluptatibus dolores accusamus quam aspernatur autem sint nesciunt.
-            Ducimus illum architecto provident nihil quas. Error qui odit assumenda sunt mollitia magni fugit nobis repellendus, in ipsa eaque! Accusantium incidunt nobis placeat maiores doloremque exercitationem cumque illum maxime sunt.
-            Adipisci qui ducimus ipsa eius quidem perspiciatis eos, dolorem tempora nemo beatae dolorum nostrum doloribus quibusdam repellat doloremque. Ut iure quibusdam laudantium aperiam quas ex vitae voluptas tenetur fuga similique.
-            Adipisci veritatis error hic odio excepturi? Dolores minima consequuntur aliquam facere voluptate odio fuga quidem nisi maxime molestias, delectus assumenda atque officiis laborum in ex, velit adipisci expedita possimus reiciendis!
+          Como desenvolvedor Full-Stack, tenho expertise em diversas tecnologias, e estou sempre em busca de novos desafios e aprendizados. Além disso, estou me especializando em Análise e Desenvolvimento de Sistemas, visando ampliar meus conhecimentos e me destacar ainda mais na minha carreira. Se você está procurando alguém com paixão pelo desenvolvimento de software, entre em contato!
           </p>
           <a href="#contact" className='btn btn-primary'>Entre em contato</a>
         </div>
