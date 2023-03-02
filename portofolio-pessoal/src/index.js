@@ -29,7 +29,7 @@ AOS.init({
   
 
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 600, // offset (in px) from the original trigger point
+  offset: 400, // offset (in px) from the original trigger point
   delay: 13, // values from 0 to 3000, with step 50ms
   duration: 1300, // values from 0 to 3000, with step 50ms
   easing: 'ease', // default easing for AOS animations
