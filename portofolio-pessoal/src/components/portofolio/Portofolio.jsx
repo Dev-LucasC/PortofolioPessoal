@@ -58,32 +58,29 @@ const data = [
 
 const Portofolio = () => {
   return (
-    <section id='portofolio' >
+    <section id='portofolio' data-aos="fade-up">
       <h5>Meus trabalhos recentes</h5>
       <h2>Portofolio</h2>
 
-      <div className="hidden">
-        <div className="container portfolio__container" >
-          {
-            data.map(({ id, image, tittle, github, demo }) => {
-              return (
-                <article key={id} className='portfolio__item'>
-                  <div className='portofolio__item-img'>
-                    <img src={image} alt={tittle} />
-                  </div>
-                  <h3>{tittle}</h3>
-                  <div className='portofolio__item-cta'>
-                    <a href={github} className='btn' target='_blank'>GitHub</a>
-                    <a href={demo} className='btn btn-primary' target='_blank'>Site Demo</a>
-                  </div>
-                </article>
-              )
-            })
-          }
-
-
-        </div>
+      <div className="container portfolio__container"  >
+        {
+          data.map(({ id, image, tittle, github, demo }) => {
+            return (
+              <article key={id} className='portfolio__item'>
+                <div className='portofolio__item-img'>
+                  <img src={image} alt={tittle} />
+                </div>
+                <h3>{tittle}</h3>
+                <div className='portofolio__item-cta'>
+                  <a href={github} className='btn' target='_blank'>GitHub</a>
+                  <a href={demo} className='btn btn-primary' target='_blank'>Site Demo</a>
+                </div>
+              </article>
+            )
+          })
+        }
       </div>
+
     </section>
   )
 }

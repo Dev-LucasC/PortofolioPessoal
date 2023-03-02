@@ -26,12 +26,13 @@
     --container-width-sm: 90%;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 ::-webkit-scrollbar {
     display: none;
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -47,6 +48,7 @@ body {
 .container {
     width: var(--container--width-lg);
     margin: 0 auto;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -114,27 +116,13 @@ img {
 
 
 
-.hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(100%);
-
-    transition: all 2s;
-}
-
-
-.show {
-    opacity: 1;
-    transform: none;
-    filter: none;
-    
-}
-
 
 
 /* ============== Configurações para dispositivos "médios" (Tablets) ======================= */
 
 @media screen and (max-width: 1024px) {
+
+    
     .container {
         width: var(--container-width-md);
     }
