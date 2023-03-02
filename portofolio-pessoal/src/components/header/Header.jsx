@@ -15,7 +15,8 @@ const Header = () => {
         <a href="#contact" className='scroll__down'>Scroll Down</a>
 
       </div>
-    </header>
+      </header>
+   
   )
 }
 
